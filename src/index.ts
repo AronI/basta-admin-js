@@ -25,6 +25,7 @@ export {
 } from './gql/generated/types';
 
 export const initBasta = (args: { accountId: string; secretKey: string }) => {
+  // hello
   return new BastaAdmin(args.accountId, args.secretKey);
 };
 
